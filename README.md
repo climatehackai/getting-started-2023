@@ -1,1 +1,1 @@
-# getting-started-2023
+# ClimateHack.AI 2023: Getting Started
