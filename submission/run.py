@@ -16,7 +16,7 @@ class Evaluator(BaseEvaluator):
     def setup(self) -> None:
         """Sets up anything required for evaluation, e.g. loading a model."""
 
-        self.model = Model()
+        self.model = Model().to(device)
         self.model.load_state_dict(torch.load("model.pt", map_location=device))
         self.model.eval()
 
